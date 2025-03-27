@@ -11577,7 +11577,6 @@ html {
   width: 3rem;
   font-size: 1.5rem;
 }
-
 .profile {
   position: relative;
   height: 75vw;
@@ -11586,14 +11585,19 @@ html {
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
+
 .profile .profile-img {
   height: 70vw;
+  width: 70vw;
   max-height: 35rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  max-width: 35rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .profile .dots-1 {
   position: absolute;
